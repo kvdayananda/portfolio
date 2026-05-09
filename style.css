@@ -189,6 +189,35 @@ ul {
     border-color: var(--accent-2);
 }
 
+.btn-social {
+    background: var(--glass-bg);
+    color: var(--text-main);
+    padding: 12px 26px;
+    font-size: 1.1rem;
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-social:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(139, 92, 246, 0.2));
+    border-color: var(--accent-1);
+    box-shadow: 0 10px 20px rgba(139, 92, 246, 0.2);
+    color: white;
+}
+
+.btn-social i {
+    font-size: 1.3rem;
+}
+
 /* =========================================
    Navigation
    ========================================= */
